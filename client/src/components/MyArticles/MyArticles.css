@@ -1,0 +1,4 @@
+.myblogs {
+  display: flex;
+  flex-direction: row;
+}

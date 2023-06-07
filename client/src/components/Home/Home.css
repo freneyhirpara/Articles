@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.active {
+  background-color: rgb(34, 54, 54) !important;
+  color: white !important;
+}
+
+.articleList {
+  min-width: 65%;
+  min-height: 90%;
+}
+/* 
+.paginate {
+  position: absolute;
+  bottom: 10;
+} */
+
+@media screen and (max-width: 690px) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+}

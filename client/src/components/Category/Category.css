@@ -1,0 +1,14 @@
+.category{
+  flex: 1 1 0;
+  padding: 30px;
+  position: relative;
+}
+
+.category__Body{
+  position: sticky;
+  top: 5rem;
+}
+
+.category__Button{
+  margin: 3px !important; 
+}

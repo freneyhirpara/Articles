@@ -1,0 +1,39 @@
+.article__Body {
+  display: flex;
+}
+
+.article__Content {
+  flex: 3 1 0;
+}
+
+.article__Media {
+  flex: 1 1 0;
+  margin: 10px;
+}
+
+.article{
+  margin: 2vh;
+  flex: 3 2 0;
+}
+
+.likes__Count{
+  font-size: 1rem;
+  margin-top:3px;
+  margin-left: 3px;
+}
+
+.likes{
+  display: flex;
+  margin-top:14px;
+}
+
+.likes__FavIcon{
+  color:red;
+}
+
+@media screen and (max-width: 850px){
+  .article__Body{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
